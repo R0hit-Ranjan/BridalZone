@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bridal Zone Patna — Official Website
 
 > **Patna's Premier Women's Boutique & Bridal Wear Destination (Est. 1995)**  
@@ -244,3 +245,6 @@ If you buy a domain like `bridalzonepatna.com` (from GoDaddy, Namecheap, or Host
 - Enter `bridalzonepatna.com`.
 - Add the 2 DNS records (CNAME and A record) provided into your domain registrar.
 - Free HTTPS/SSL is automatically generated!
+=======
+# BridalZone
+>>>>>>> 42c995f05b240c8e16cf79b5a80e82cc8b76de1e
