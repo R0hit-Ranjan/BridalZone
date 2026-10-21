@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Light theme shimmer and warm gold text gradients */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #A47023 0%, #C8953C 50%, #905B16 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-rose-gradient {
+  background: linear-gradient(135deg, #B83A52 0%, #D45D74 50%, #9E2B41 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-light {
+  background: linear-gradient(135deg, #FFF9EE 0%, #FDF3DF 100%);
+}
+
+.bg-rose-light {
+  background: linear-gradient(135deg, #FFF5F6 0%, #FEECEF 100%);
+}
+
+/* Clean light scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F4EFEB;
+}
+::-webkit-scrollbar-thumb {
+  background: #D6C7B2;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BFAEA0;
+}
+
